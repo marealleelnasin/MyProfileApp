@@ -53,7 +53,7 @@ const ProfilePage = () => {
         Marealle G. Elnasin 
       </Text>
 
-      <View style={ProfilePageStyles.socialIconsContainer}>
+      <View style={ProfilePageStyles.socialIconsContainer}> 
         <TouchableOpacity style={ProfilePageStyles.socialButton} onPress={() => { /* No link muna hehe */ }}>
           <Ionicons name="logo-facebook" size={24} color={isDarkMode ? '#ffafb8' : '#3b5998'} />
           <Text style={ProfilePageStyles.socialText}>Add me on Facebook.</Text>
