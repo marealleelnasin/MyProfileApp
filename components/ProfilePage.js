@@ -54,25 +54,24 @@ const ProfilePage = () => {
       </Text>
 
       <View style={ProfilePageStyles.socialIconsContainer}> 
-        <TouchableOpacity style={ProfilePageStyles.socialButton} onPress={() => { /* No link muna hehe */ }}>
-          <Ionicons name="logo-facebook" size={24} color={isDarkMode ? '#ffafb8' : '#3b5998'} />
-          <Text style={ProfilePageStyles.socialText}>Add me on Facebook.</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={ProfilePageStyles.socialButton} onPress={() => { /* No link muna hehe */ }}>
-          <Ionicons name="logo-instagram" size={24} color={isDarkMode ? '#ffafb8' : '#E1306C'} />
-          <Text style={ProfilePageStyles.socialText}>Follow me on Instagram.</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={ProfilePageStyles.socialButton} onPress={() => { /* No link muna hehe */ }}>
-          <Ionicons name="logo-github" size={24} color={isDarkMode ? '#ffafb8' : '#333'} />
-          <Text style={ProfilePageStyles.socialText}>View my GitHub.</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={ProfilePageStyles.socialButton} onPress={() => { /* No link muna hehe */ }}>
-          <Ionicons name="mail" size={24} color={isDarkMode ? '#ffafb8' : '#1DA1F2'} />
-          <Text style={ProfilePageStyles.socialText}>Email me.</Text>
-        </TouchableOpacity>
-
-      </View>
-    </View>
+  <TouchableOpacity style={ProfilePageStyles.socialButton} onPress={() => { /* No link muna hehe */ }}>
+    <Ionicons name="logo-facebook" size={24} color={isDarkMode ? '#fff' : '#3b5998'} />
+    <Text style={ProfilePageStyles.socialText}>Add me on Facebook.</Text>
+  </TouchableOpacity>
+  <TouchableOpacity style={ProfilePageStyles.socialButton} onPress={() => { /* No link muna hehe */ }}>
+    <Ionicons name="logo-instagram" size={24} color={isDarkMode ? '#fff' : '#E1306C'} />
+    <Text style={ProfilePageStyles.socialText}>Follow me on Instagram.</Text>
+  </TouchableOpacity>
+  <TouchableOpacity style={ProfilePageStyles.socialButton} onPress={() => { /* No link muna hehe */ }}>
+    <Ionicons name="logo-github" size={24} color={isDarkMode ? '#fff' : '#333'} />
+    <Text style={ProfilePageStyles.socialText}>View my GitHub.</Text>
+  </TouchableOpacity>
+  <TouchableOpacity style={ProfilePageStyles.socialButton} onPress={() => { /* No link muna hehe */ }}>
+    <Ionicons name="mail" size={24} color={isDarkMode ? '#fff' : '#1DA1F2'} />
+    <Text style={ProfilePageStyles.socialText}>Email me.</Text>
+  </TouchableOpacity>
+</View>
+</View>
   );
 };
 
